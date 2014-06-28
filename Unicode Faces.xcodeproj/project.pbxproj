@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		495E40D3195CC00500E55652 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E40D2195CC00500E55652 /* Cocoa.framework */; };
+		495E40DD195CC00500E55652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495E40DB195CC00500E55652 /* InfoPlist.strings */; };
+		495E40DF195CC00500E55652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E40DE195CC00500E55652 /* main.m */; };
+		495E40E3195CC00500E55652 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 495E40E1195CC00500E55652 /* Credits.rtf */; };
+		495E40E6195CC00500E55652 /* UFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E40E5195CC00500E55652 /* UFAppDelegate.m */; };
+		495E40E9195CC00500E55652 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 495E40E7195CC00500E55652 /* MainMenu.xib */; };
+		495E40EB195CC00500E55652 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 495E40EA195CC00500E55652 /* Images.xcassets */; };
+		495E40F2195CC00500E55652 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E40F1195CC00500E55652 /* XCTest.framework */; };
+		495E40F3195CC00500E55652 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495E40D2195CC00500E55652 /* Cocoa.framework */; };
+		495E40FB195CC00500E55652 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 495E40F9195CC00500E55652 /* InfoPlist.strings */; };
+		495E40FD195CC00500E55652 /* Unicode_FacesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 495E40FC195CC00500E55652 /* Unicode_FacesTests.m */; };
+		495E4107195CD1B700E55652 /* DefaultFaces.txt in Resources */ = {isa = PBXBuildFile; fileRef = 495E4106195CD1B700E55652 /* DefaultFaces.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		495E40F4195CC00500E55652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 495E40C7195CC00500E55652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 495E40CE195CC00500E55652;
+			remoteInfo = "Unicode Faces";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		495E40CF195CC00500E55652 /* Unicode Faces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unicode Faces.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E40D2195CC00500E55652 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		495E40D5195CC00500E55652 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		495E40D6195CC00500E55652 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		495E40D7195CC00500E55652 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		495E40DA195CC00500E55652 /* Unicode Faces-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unicode Faces-Info.plist"; sourceTree = "<group>"; };
+		495E40DC195CC00500E55652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495E40DE195CC00500E55652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		495E40E0195CC00500E55652 /* Unicode Faces-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Unicode Faces-Prefix.pch"; sourceTree = "<group>"; };
+		495E40E2195CC00500E55652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		495E40E4195CC00500E55652 /* UFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UFAppDelegate.h; sourceTree = "<group>"; };
+		495E40E5195CC00500E55652 /* UFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFAppDelegate.m; sourceTree = "<group>"; };
+		495E40E8195CC00500E55652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		495E40EA195CC00500E55652 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		495E40F0195CC00500E55652 /* Unicode FacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unicode FacesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495E40F1195CC00500E55652 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		495E40F8195CC00500E55652 /* Unicode FacesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unicode FacesTests-Info.plist"; sourceTree = "<group>"; };
+		495E40FA195CC00500E55652 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		495E40FC195CC00500E55652 /* Unicode_FacesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Unicode_FacesTests.m; sourceTree = "<group>"; };
+		495E4106195CD1B700E55652 /* DefaultFaces.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DefaultFaces.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		495E40CC195CC00500E55652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E40D3195CC00500E55652 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495E40ED195CC00500E55652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E40F3195CC00500E55652 /* Cocoa.framework in Frameworks */,
+				495E40F2195CC00500E55652 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495E40C6195CC00500E55652 = {
+			isa = PBXGroup;
+			children = (
+				495E40D8195CC00500E55652 /* Unicode Faces */,
+				495E40F6195CC00500E55652 /* Unicode FacesTests */,
+				495E40D1195CC00500E55652 /* Frameworks */,
+				495E40D0195CC00500E55652 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		495E40D0195CC00500E55652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				495E40CF195CC00500E55652 /* Unicode Faces.app */,
+				495E40F0195CC00500E55652 /* Unicode FacesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		495E40D1195CC00500E55652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495E40D2195CC00500E55652 /* Cocoa.framework */,
+				495E40F1195CC00500E55652 /* XCTest.framework */,
+				495E40D4195CC00500E55652 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		495E40D4195CC00500E55652 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495E40D5195CC00500E55652 /* AppKit.framework */,
+				495E40D6195CC00500E55652 /* CoreData.framework */,
+				495E40D7195CC00500E55652 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		495E40D8195CC00500E55652 /* Unicode Faces */ = {
+			isa = PBXGroup;
+			children = (
+				495E40E4195CC00500E55652 /* UFAppDelegate.h */,
+				495E40E5195CC00500E55652 /* UFAppDelegate.m */,
+				495E40E7195CC00500E55652 /* MainMenu.xib */,
+				495E40EA195CC00500E55652 /* Images.xcassets */,
+				495E40D9195CC00500E55652 /* Supporting Files */,
+			);
+			path = "Unicode Faces";
+			sourceTree = "<group>";
+		};
+		495E40D9195CC00500E55652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495E40DA195CC00500E55652 /* Unicode Faces-Info.plist */,
+				495E40DB195CC00500E55652 /* InfoPlist.strings */,
+				495E40DE195CC00500E55652 /* main.m */,
+				495E40E0195CC00500E55652 /* Unicode Faces-Prefix.pch */,
+				495E40E1195CC00500E55652 /* Credits.rtf */,
+				495E4106195CD1B700E55652 /* DefaultFaces.txt */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		495E40F6195CC00500E55652 /* Unicode FacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				495E40FC195CC00500E55652 /* Unicode_FacesTests.m */,
+				495E40F7195CC00500E55652 /* Supporting Files */,
+			);
+			path = "Unicode FacesTests";
+			sourceTree = "<group>";
+		};
+		495E40F7195CC00500E55652 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				495E40F8195CC00500E55652 /* Unicode FacesTests-Info.plist */,
+				495E40F9195CC00500E55652 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		495E40CE195CC00500E55652 /* Unicode Faces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495E4100195CC00500E55652 /* Build configuration list for PBXNativeTarget "Unicode Faces" */;
+			buildPhases = (
+				495E40CB195CC00500E55652 /* Sources */,
+				495E40CC195CC00500E55652 /* Frameworks */,
+				495E40CD195CC00500E55652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unicode Faces";
+			productName = "Unicode Faces";
+			productReference = 495E40CF195CC00500E55652 /* Unicode Faces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		495E40EF195CC00500E55652 /* Unicode FacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 495E4103195CC00500E55652 /* Build configuration list for PBXNativeTarget "Unicode FacesTests" */;
+			buildPhases = (
+				495E40EC195CC00500E55652 /* Sources */,
+				495E40ED195CC00500E55652 /* Frameworks */,
+				495E40EE195CC00500E55652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				495E40F5195CC00500E55652 /* PBXTargetDependency */,
+			);
+			name = "Unicode FacesTests";
+			productName = "Unicode FacesTests";
+			productReference = 495E40F0195CC00500E55652 /* Unicode FacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		495E40C7195CC00500E55652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Andrew Smith";
+				TargetAttributes = {
+					495E40EF195CC00500E55652 = {
+						TestTargetID = 495E40CE195CC00500E55652;
+					};
+				};
+			};
+			buildConfigurationList = 495E40CA195CC00500E55652 /* Build configuration list for PBXProject "Unicode Faces" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 495E40C6195CC00500E55652;
+			productRefGroup = 495E40D0195CC00500E55652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				495E40CE195CC00500E55652 /* Unicode Faces */,
+				495E40EF195CC00500E55652 /* Unicode FacesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		495E40CD195CC00500E55652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E40DD195CC00500E55652 /* InfoPlist.strings in Resources */,
+				495E40EB195CC00500E55652 /* Images.xcassets in Resources */,
+				495E40E3195CC00500E55652 /* Credits.rtf in Resources */,
+				495E4107195CD1B700E55652 /* DefaultFaces.txt in Resources */,
+				495E40E9195CC00500E55652 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495E40EE195CC00500E55652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E40FB195CC00500E55652 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		495E40CB195CC00500E55652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E40DF195CC00500E55652 /* main.m in Sources */,
+				495E40E6195CC00500E55652 /* UFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		495E40EC195CC00500E55652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495E40FD195CC00500E55652 /* Unicode_FacesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		495E40F5195CC00500E55652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 495E40CE195CC00500E55652 /* Unicode Faces */;
+			targetProxy = 495E40F4195CC00500E55652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		495E40DB195CC00500E55652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E40DC195CC00500E55652 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		495E40E1195CC00500E55652 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E40E2195CC00500E55652 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		495E40E7195CC00500E55652 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E40E8195CC00500E55652 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		495E40F9195CC00500E55652 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				495E40FA195CC00500E55652 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		495E40FE195CC00500E55652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		495E40FF195CC00500E55652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		495E4101195CC00500E55652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unicode Faces/Unicode Faces-Prefix.pch";
+				INFOPLIST_FILE = "Unicode Faces/Unicode Faces-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		495E4102195CC00500E55652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unicode Faces/Unicode Faces-Prefix.pch";
+				INFOPLIST_FILE = "Unicode Faces/Unicode Faces-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		495E4104195CC00500E55652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unicode Faces.app/Contents/MacOS/Unicode Faces";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unicode Faces/Unicode Faces-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Unicode FacesTests/Unicode FacesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		495E4105195CC00500E55652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Unicode Faces.app/Contents/MacOS/Unicode Faces";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Unicode Faces/Unicode Faces-Prefix.pch";
+				INFOPLIST_FILE = "Unicode FacesTests/Unicode FacesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		495E40CA195CC00500E55652 /* Build configuration list for PBXProject "Unicode Faces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E40FE195CC00500E55652 /* Debug */,
+				495E40FF195CC00500E55652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		495E4100195CC00500E55652 /* Build configuration list for PBXNativeTarget "Unicode Faces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E4101195CC00500E55652 /* Debug */,
+				495E4102195CC00500E55652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		495E4103195CC00500E55652 /* Build configuration list for PBXNativeTarget "Unicode FacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				495E4104195CC00500E55652 /* Debug */,
+				495E4105195CC00500E55652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 495E40C7195CC00500E55652 /* Project object */;
+}
