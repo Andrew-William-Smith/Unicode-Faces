@@ -247,6 +247,7 @@
         [faces replaceObjectAtIndex:selectedIndex withObject:newFace];
         [self updateFile];
         [[menu itemAtIndex:(selectedIndex + 7)] setTitle:newFace];
+        [[menu itemAtIndex:(selectedIndex + 7)] setRepresentedObject:newFace];
         [self hideEditWindow:nil];
     }
 }
