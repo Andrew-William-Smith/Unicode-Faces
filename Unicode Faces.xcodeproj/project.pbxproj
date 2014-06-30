@@ -394,6 +394,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Unicode Faces/Unicode Faces-Prefix.pch";
 				INFOPLIST_FILE = "Unicode Faces/Unicode Faces-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Unicode Faces/Unicode Faces-Prefix.pch";
 				INFOPLIST_FILE = "Unicode Faces/Unicode Faces-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -471,6 +473,7 @@
 				495E4102195CC00500E55652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		495E4103195CC00500E55652 /* Build configuration list for PBXNativeTarget "Unicode FacesTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +482,7 @@
 				495E4105195CC00500E55652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
