@@ -55,7 +55,13 @@
     NSString *face = [sender representedObject];
     
     if (escapeMode == YES) {
+        NSString *escapeChars = @"`~!#^&*()-_+[]{}|:./<>";
         face = [face stringByReplacingOccurrencesOfString:@"\\" withString:@"\\\\"];
+        
+        for (int i = 0; i < [escapeChars length]; i++) {
+            NSString *currentChar = [escapeChars substringWithRange:NSMakeRange(i, 1)];
+            face = [face stringByReplacingOccurrencesOfString:[NSString stringWithFormat:@"\\%@", currentChar] withString:[NSString stringWithFormat:@"\\\\%@", currentChar]];
+        }
     }
     
     CGEventRef sendKeys = CGEventCreateKeyboardEvent(NULL, (CGKeyCode)0, true);
