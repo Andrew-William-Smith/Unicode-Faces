@@ -13,7 +13,7 @@ Features
     - Plain-text file (~/.faces) editable with any text editor that supports the UTF-8 character set
 - Escape mode - Escape backslashes by typing them twice (\\ → \\\\) to avoid the "lost arm" effect on sites like Reddit
     - Typed thrice (\\\\\\) before Markdown formatting characters to properly escape them
-    - ¯\_(ツ)_/¯ → ¯\\\_(ツ)_/¯
+    - ¯\_(ツ)_/¯ → ¯\\_(ツ)_/¯
 
 Face File
 =========
