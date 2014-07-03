@@ -158,12 +158,9 @@
 - (IBAction)addFace:(id)sender {
     NSString *newFace = [addField stringValue];
     
-    // Make sure that the face does not already exist
-    if ([faces containsObject:newFace] == NO) {
-        [self addNewFace:newFace];
-    }
-    else {
-        // Ask the user if they would like to add it anyway
+    // Ensure that the face does not already exist
+    if ([faces containsObject:newFace] == YES) {
+        // Ask the user if they want to add a duplicate
         NSAlert *existsNotification = [[NSAlert alloc] init];
         [existsNotification setMessageText:@"Face already exists"];
         [existsNotification setInformativeText:@"The face that you entered is already in the face list.  Would you like to add another instance of it anyway?"];
@@ -171,6 +168,20 @@
         [existsNotification addButtonWithTitle:@"Yes"];
         [existsNotification addButtonWithTitle:@"No"];
         [existsNotification beginSheetModalForWindow:addWindow modalDelegate:self didEndSelector:@selector(addAlertDidEnd:returnCode:contextInfo:) contextInfo:nil];
+    }
+    // Make sure the face is not blank
+    else if ([newFace isEqual:@""]) {
+        // Ask the user if they want to add a blank face
+        NSAlert *blankNotification = [[NSAlert alloc] init];
+        [blankNotification setMessageText:@"Blank face"];
+        [blankNotification setInformativeText:@"You are attempting to add a blank face to the face list.  Are you sure that you want to add a blank face?"];
+        [blankNotification setIcon:[[NSWorkspace sharedWorkspace] iconForFileType:NSFileTypeForHFSTypeCode(kAlertNoteIcon)]];
+        [blankNotification addButtonWithTitle:@"Yes"];
+        [blankNotification addButtonWithTitle:@"No"];
+        [blankNotification beginSheetModalForWindow:addWindow modalDelegate:self didEndSelector:@selector(addAlertDidEnd:returnCode:contextInfo:) contextInfo:nil];
+    }
+    else {
+        [self addNewFace:newFace];
     }
 }
 
