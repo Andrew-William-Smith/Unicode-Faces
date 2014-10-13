@@ -12,20 +12,24 @@
 	<dict>
 		<key>1B5681E6-1D5C-4A6D-BBBC-3547D63A63DC</key>
 		<string>https://github.com/Andrew-William-Smith/Unicode-Faces.git</string>
+		<key>404060C1E3CA906D81F3F62DB17BAA86432262B3</key>
+		<string>https://github.com/Andrew-William-Smith/Unicode-Faces.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Unicode Faces.xcodeproj/project.xcworkspace</string>
+	<string>Unicode Faces.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1B5681E6-1D5C-4A6D-BBBC-3547D63A63DC</key>
+		<string>../../../Unicode Faces</string>
+		<key>404060C1E3CA906D81F3F62DB17BAA86432262B3</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Andrew-William-Smith/Unicode-Faces.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>1B5681E6-1D5C-4A6D-BBBC-3547D63A63DC</string>
+	<string>404060C1E3CA906D81F3F62DB17BAA86432262B3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>1B5681E6-1D5C-4A6D-BBBC-3547D63A63DC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Unicode Faces</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>404060C1E3CA906D81F3F62DB17BAA86432262B3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Unicode%20Faces</string>
 		</dict>
 	</array>
 </dict>
